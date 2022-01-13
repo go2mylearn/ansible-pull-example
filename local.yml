@@ -1,6 +1,6 @@
 ---
 - hosts: all
-
+  become: yes
   tasks:
   - name: install example application
     copy: 
