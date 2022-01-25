@@ -5,6 +5,6 @@
   - name: install example application
     copy: 
       src: ansible_test_app 
-      dest: /tmp/
+      dest: /Users/samir/
       owner: root
       group: root
